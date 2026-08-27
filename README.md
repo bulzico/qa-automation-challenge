@@ -4,7 +4,7 @@ Projeto de avaliação técnica para **QA Automação Sênior**, estruturado com
 
 ## Escopo entregue
 
-| Pilar | Implementação | Cobertura |
+| Categoria | Implementação | Cobertura |
 | --- | --- | --- |
 | API | Playwright API + mock API local em Node | GET, POST, PUT, DELETE, status, headers, body e falhas |
 | E2E | Cucumber + Playwright contra Sauce Demo | login, checkout, erro de credencial e entrega incompleta |
@@ -83,6 +83,4 @@ HEADLESS=false npm run test:e2e
 - Cucumber 11
 - k6 (CLI)
 
-## Limites assumidos
 
-O enunciado apresenta mobile como opcional. Não foi incluído um fluxo Appium artificial sem APK, emulador e identificadores nativos reais: seria código de vitrine, não automação confiável. O mesmo raciocínio guiou o teste de carga: o script está pronto, mas a execução contra uma API pública deve ser autorizada antes de gerar 500 usuários virtuais por 5 minutos.
